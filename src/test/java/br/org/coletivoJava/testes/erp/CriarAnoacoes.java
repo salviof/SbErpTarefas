@@ -6,6 +6,7 @@
 package br.org.coletivoJava.testes.erp;
 
 import br.org.coletivoJava.fw.api.erp.tarefas.ERPTarefas;
+import com.super_bits.modulosSB.SBCore.ConfigGeral.SBCore;
 //import com.super_bits.modulosSB.SBCore.ConfigGeral.SBCore;
 import org.apache.logging.log4j.LogManager;
 import org.coletivojava.fw.api.objetoNativo.log.LogPadraoSB;
@@ -22,7 +23,7 @@ public class CriarAnoacoes {
     public void criarAnotacoes() {
 
         try {
-//            SBCore.configurar(new ConfigCoreApiErpCodigoPostal(), SBCore.ESTADO_APP.DESENVOLVIMENTO);
+            SBCore.configurar(new ConfigCoreApiErpTarefas(), SBCore.ESTADO_APP.DESENVOLVIMENTO);
             for (ERPTarefas trassp : ERPTarefas.values()) {
 
 //                GeradorAPIERP gerador = new GeradorAPIERP(trassp);

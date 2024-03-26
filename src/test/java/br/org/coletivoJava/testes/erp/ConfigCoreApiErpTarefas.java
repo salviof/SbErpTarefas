@@ -6,14 +6,17 @@
 package br.org.coletivoJava.testes.erp;
 
 //import com.super_bits.modulosSB.SBCore.ConfigGeral.ConfiguradorCoreDeProjetoJarAbstrato;
+import com.super_bits.modulosSB.SBCore.ConfigGeral.ConfiguradorCoreDeProjetoJarAbstrato;
+import com.super_bits.modulosSB.SBCore.ConfigGeral.ItfConfiguracaoCoreCustomizavel;
+
 //import com.super_bits.modulosSB.SBCore.ConfigGeral.ItfConfiguracaoCoreCustomizavel;
 /**
  *
  * @author desenvolvedor
  */
-public class ConfigCoreApiErpCodigoPostal {//extends ConfiguradorCoreDeProjetoJarAbstrato {
+public class ConfigCoreApiErpTarefas extends ConfiguradorCoreDeProjetoJarAbstrato {
 
-    //@Override
-    //public void defineFabricasDeACao(ItfConfiguracaoCoreCustomizavel pConfig) {
-    //}
+    @Override
+    public void defineFabricasDeACao(ItfConfiguracaoCoreCustomizavel pConfig) {
+    }
 }
