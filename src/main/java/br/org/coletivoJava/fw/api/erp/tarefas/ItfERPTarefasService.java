@@ -18,10 +18,22 @@ public interface ItfERPTarefasService {
 
     public ItfERPTarefa getTarefaByID(String id);
 
-    public ItfERPTarefa getTarefaEmListaBySlug(String pCodigoLista, String id);
+    public String getListaDoEspacoByNameContendo(String pCodigoEspaco, String pTrechoNome);
 
-    public ItfERPTarefa getTarefaEmListaByFolder(String pCodigoLista, String id);
+    public String getListaDaPastaByNameContendo(String pCodigoPasta, String pTrechoNome);
 
-    public String getCodigoModeloBySlugs(String pCodigoTime, String... pSlugs);
+    public String getCodigoPastaByNameContendo(String pCodigoEspaco, String pTrechoNome);
+
+    public String criarPasta(String pCodigoEspaco, String pNome);
+
+    public String criarListaNaPasta(String pCodigoPasta, String pNome);
+
+    public ItfERPTarefa getTarefaEmPAByNameContendo(String pCodigoLista, String pTrechoNome);
+
+    public ItfERPTarefa getTarefaEmListaByNameContendo(String pCodigoLista, String pTrechoNome);
+
+    public String getCodigoModeloByNameContendo(String pCodigoTime, String... pTrechosNome);
+
+    public boolean criarTarefaViaModelo(String pCodigoLista, String pModeloTarefa, String pNomeTarefa);
 
 }

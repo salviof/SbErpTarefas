@@ -12,4 +12,6 @@ import com.super_bits.modulosSB.SBCore.modulos.objetos.registro.Interfaces.basic
  */
 public interface ItfERPTarefa extends ItfBeanSimples {
 
+    public String getIdAppRemoto();
+
 }
