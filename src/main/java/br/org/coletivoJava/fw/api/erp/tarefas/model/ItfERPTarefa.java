@@ -4,13 +4,13 @@
  */
 package br.org.coletivoJava.fw.api.erp.tarefas.model;
 
-import com.super_bits.modulosSB.SBCore.modulos.objetos.registro.Interfaces.basico.ItfBeanSimples;
+import com.super_bits.modulosSB.SBCore.modulos.objetos.registro.Interfaces.basico.ComoEntidadeSimples;
 
 /**
  *
  * @author salvio
  */
-public interface ItfERPTarefa extends ItfBeanSimples {
+public interface ItfERPTarefa extends ComoEntidadeSimples {
 
     public String getIdAppRemoto();
 
