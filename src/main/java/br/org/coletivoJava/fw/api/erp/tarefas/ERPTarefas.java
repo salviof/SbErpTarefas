@@ -1,13 +1,13 @@
 package br.org.coletivoJava.fw.api.erp.tarefas;
 
-import com.super_bits.modulosSB.SBCore.modulos.erp.ApiERPColetivoJavaFW;
 import com.super_bits.modulosSB.SBCore.modulos.erp.ItfApiErpSuperBits;
+import com.super_bits.modulosSB.SBCore.modulos.erp.InfoApiERPCarameloCode;
 
 /**
  *
  * @author salvio
  */
-@ApiERPColetivoJavaFW(descricaoApi = "Tarefas gestão de projetos", nomeApi = "Tarefas", slugInicial = "Tarefas")
+@InfoApiERPCarameloCode(descricaoApi = "Tarefas gestão de projetos", nomeApi = "Tarefas", slugInicial = "Tarefas")
 public enum ERPTarefas implements ItfApiErpSuperBits<ItfERPTarefasService> {
 
     CLICKUP,
