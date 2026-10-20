@@ -7,9 +7,9 @@ package br.org.coletivoJava.testes.erp;
 
 //import com.super_bits.modulosSB.SBCore.ConfigGeral.ConfiguradorCoreDeProjetoJarAbstrato;
 import com.super_bits.modulosSB.SBCore.ConfigGeral.ConfiguradorCoreDeProjetoJarAbstrato;
-import com.super_bits.modulosSB.SBCore.ConfigGeral.ItfConfiguracaoCoreCustomizavel;
+import com.super_bits.modulosSB.SBCore.ConfigGeral.ComoContextoExecCustomizavel;
 
-//import com.super_bits.modulosSB.SBCore.ConfigGeral.ItfConfiguracaoCoreCustomizavel;
+//import com.super_bits.modulosSB.SBCore.ConfigGeral.ComoContextoExecCustomizavel;
 /**
  *
  * @author desenvolvedor
@@ -17,6 +17,6 @@ import com.super_bits.modulosSB.SBCore.ConfigGeral.ItfConfiguracaoCoreCustomizav
 public class ConfigCoreApiErpTarefas extends ConfiguradorCoreDeProjetoJarAbstrato {
 
     @Override
-    public void defineFabricasDeACao(ItfConfiguracaoCoreCustomizavel pConfig) {
+    public void defineFabricasDeACao(ComoContextoExecCustomizavel pConfig) {
     }
 }
